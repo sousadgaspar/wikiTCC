@@ -1,0 +1,240 @@
+/*
+    Estilo principal do sistema
+*/
+
+
+/*Assets*/
+.corrigirFlutuacao{
+    clear:both;
+}
+
+.centralizarDiv{
+    margin:0 auto;
+}
+
+.linhaAzul{
+    width:396px;
+    height:2px;
+    background-color:#009dc4;
+    
+}
+
+
+body{
+    background-color:666666;
+}
+
+body, p, h1, h2, h3, h4, h5{
+    margin:0px;
+    padding:0px;
+}
+
+#conteinerPrincipal{
+    width:1024px;
+    min-height:735px;
+    margin:0 auto;
+    background-color:#ffffff;
+    font-family:arial, geneva;
+}
+
+/*
+    Topo - Cabecalho
+*/
+#barraCabecalho{
+    width:100%;
+    background-color:#009dc4;
+    height:35px;
+}
+
+/*
+    Coluna dos menus na lateral esquerda
+*/
+#colunaMenuLateralEsquerdo{
+    width:170px;
+    min-height:825px;
+    background-color:#959595;
+    float:left;
+}
+
+#colunaMenuLateralEsquerdo img{
+    
+}
+
+#colunaMenuLateralEsquerdo img a{
+    border:0px;
+}
+
+#colunaMenuLateralEsquerdo .botao{
+    width: 170px;
+    height: 20px;
+    padding:16px 0px;
+    background-image: url('imagens/fundoBotao.png') repeat-x;
+    border-top:solid 1px #828282;
+}
+
+#colunaMenuLateralEsquerdo .botao p{
+    text-align:center;
+    font-size:13pt;
+    color:#ffffff;
+    
+}
+
+
+
+/*
+    Zona de conteudo
+*/
+#zonaConteudo{
+    width:822px;
+    float:left;
+    padding:16px;
+}
+
+#zonaConteudo h1{
+    font-family:arial, "Myriad pro";
+    text-align:center;
+    font-size: 28pt;
+    color:#828282;
+}
+
+#zonaConteudo h2{
+    font-family:arial, "Myriad pro";
+    text-align:center;
+    font-size: 16pt;
+    margin:4px;
+    color:#b7b7b7;
+}
+
+#zonaConteudo label{
+    color:#b9b9b9;
+    font-family:arial, geneva;
+    font-size:12pt;
+}
+
+#zonaConteudo #areaPesquisa{
+    width:100%;
+    margin:0px 0px 0px 536px;
+}
+
+#zonaConteudo .boasVindas{
+    width:100%;
+}
+
+#zonaConteudo .boasVindas p{
+    text-align:right;
+    font-size:9pt;
+    font-weight:bold;
+    color: 006b85;
+}
+
+#zonaConteudo .boxLogin{
+    width:100%;
+}
+
+#zonaConteudo .boxLogin label{
+    color:#b9b9b9;
+    font-family:arial, geneva;
+    font-size:18pt;
+}
+
+
+
+        /*
+            Miniatura eventos
+        */
+        .miniaturaTcc{
+            width:188px;
+            min-height:238px;
+            background-color:#dbdbdb;
+            margin:8px;
+            float:left;
+        }
+
+
+/*
+    Rodape 
+*/
+#rodape{
+    width:100%;
+    padding:14px 0px 7px 0px;
+    background-color:#009dc4;
+    height:35px;
+}
+
+#rodape p{
+    color:#ffffff;
+    font-size:12pt;
+    text-align:center;
+}
+
+
+
+/*
+    Estilo dos formularios Formulario
+*/
+
+/*text box de pesquisa*/
+.textBoxPesquisa{
+    border: solid 1px #828282;
+    max-width:200px;
+    background-color:#e7e7e7;
+    
+    font-family:geneva, arial;
+    font-size:12pt;
+    padding:4px;
+    
+    border-radius:4px;
+    -moz-border-radius:4px;
+    -webkit-border-radius:4px;
+    -o-border-radius:4px;
+    -ms-border-radius:4px;
+    
+    box-shadow: inset 2px 0px 2px #9a9a9a;
+    -moz-box-shadow: inset 2px 0px 2px #9a9a9a;
+    -webkit-box-shadow: inset 2px 0px 2px #9a9a9a;
+    -o-box-shadow: inset 2px 0px 2px #9a9a9a;
+    -ms-box-shadow: inset 2px 0px 2px #9a9a9a;
+    
+}
+
+/*Precisa ser reparado*/
+.botaoPesquisar{
+    height:24px;
+    font-family:geneva, arial;
+    font-size:18pt;
+    padding:8px 2px;
+}
+
+/*Estilo padrao das textBox do sistema*/
+.textBoxPadrao{
+    background-color:#f2f2f2;
+    padding:4px;
+    border: solid 1px #828282;
+    font-size:14pt;
+    
+    border-radius:4px;
+    -moz-border-radius:4px;
+    -webkit-border-radius:4px;
+    -o-border-radius:4px;
+    -ms-border-radius:4px;
+}
+
+/*Botao normal*/
+.buttonNormal{
+    background-color:#0096bb;
+    padding:15px;
+    border:none;
+    
+    color:#d1f4fd;
+    font-size:12pt;
+    
+    border-radius:4px;
+    -moz-border-radius:4px;
+    -webkit-border-radius:4px;
+    -o-border-radius:4px;
+    -ms-border-radius:4px;
+    
+    box-shadow: 0px 2px 0px #006780;
+}
+
+
