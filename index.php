@@ -99,57 +99,60 @@
                 
                 <div class="miniaturaTcc">
                     <a href="#">
-                        <img src="#" alt="<?php print $nomeDaImagem ?>" />
-                        <label>
-                            Título do trabalho  
-                        </label>
+                        <img src="imagens/monografia.png" alt="<?php print $nomeDaImagem ?>" />
                     </a>
+                        <label>
+                            <a href="">
+                            Titulo do trabalho
+                            </a>
+                        </label>
+                    
                 </div>
                 
                 <div class="miniaturaTcc">
-                    <img src="#" alt="<?php print $nomeDaImagem ?>" />
+                    <img src="imagens/monografia.png" alt="<?php print $nomeDaImagem ?>" />
                     <label>
                         Título do trabalho  
                     </label>
                 </div>
                 
                 <div class="miniaturaTcc">
-                    <img src="#" alt="<?php print $nomeDaImagem ?>" />
+                    <img src="imagens/monografia.png" alt="<?php print $nomeDaImagem ?>" />
                     <label>
                         Título do trabalho  
                     </label>
                 </div>
                 
                 <div class="miniaturaTcc">
-                    <img src="#" alt="<?php print $nomeDaImagem ?>" />
+                    <img src="imagens/monografia.png" alt="<?php print $nomeDaImagem ?>" />
                     <label>
                         Título do trabalho  
                     </label>
                 </div>
                 
                 <div class="miniaturaTcc">
-                    <img src="#" alt="<?php print $nomeDaImagem ?>" />
+                    <img src="imagens/monografia.png" alt="<?php print $nomeDaImagem ?>" />
                     <label>
                         Título do trabalho  
                     </label>
                 </div>
                 
                 <div class="miniaturaTcc">
-                    <img src="#" alt="<?php print $nomeDaImagem ?>" />
+                    <img src="imagens/monografia.png" alt="<?php print $nomeDaImagem ?>" />
                     <label>
                         Título do trabalho  
                     </label>
                 </div>
                 
                 <div class="miniaturaTcc">
-                    <img src="#" alt="<?php print $nomeDaImagem ?>" />
+                    <img src="imagens/monografia.png" alt="<?php print $nomeDaImagem ?>" />
                     <label>
                         Título do trabalho  
                     </label>
                 </div>
                 
                 <div class="miniaturaTcc">
-                    <img src="#" alt="<?php print $nomeDaImagem ?>" />
+                    <img src="imagens/monografia.png" alt="<?php print $nomeDaImagem ?>" />
                     <label>
                         Título do trabalho  
                     </label>

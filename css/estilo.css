@@ -145,10 +145,35 @@ body, p, h1, h2, h3, h4, h5{
         .miniaturaTcc{
             width:188px;
             min-height:238px;
-            background-color:#dbdbdb;
+            background-color:#e6e6e6;
             margin:8px;
             float:left;
+
+            text-align: center;
+            padding-bottom: 20px;
         }
+
+        .miniaturaTcc img{
+            width:188px;
+            margin-bottom: 20px;
+        }
+
+        .miniaturaTcc img a{
+            border: none;
+
+            color: #585858;
+        }
+
+        .miniaturaTcc label{
+            
+        }
+
+        .miniaturaTcc label a{
+            color: #007a98;
+            text-decoration: none;
+        }
+
+
 
 
 /*
