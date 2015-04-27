@@ -49,8 +49,9 @@
 		*
 		*/
 
-		public function criarTutor($nomeTutor){
+		public function criarTutor($nomeTutor, $nivelAcademico){
 			$this->setTutor($nomeTutor);
+			$this->setNivelAcademico($nivelAcademico);
 
 			//abre nova conexao
 			$conn = new Conexao;
