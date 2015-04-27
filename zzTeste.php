@@ -1,11 +1,9 @@
 <?php
 
-	include 'classes/Categoria.Class.php';
+	include 'classes/Tutor.dao.Class.php';
 
+	$tutor = new TutorDao();
 
-	$categoria = new Categoria;
+	$tutor->insert('Manuel Monteiro', 'Engenheiro');
 
-	foreach ($categoria->getAll() as $value) {
-		print $value->categoria."<br />";
-	}; 
 ?>

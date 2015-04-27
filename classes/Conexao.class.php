@@ -17,7 +17,7 @@
 		//funcao contrutora
 		public function __construct(){
 			$this->server = 'localhost';
-			$this->bancoDados = 'bdWikiTcc';
+			$this->bancoDados = 'dbWikiTcc';
 			$this->user = 'root';
 			$this->pass = '';
 			$this->dbType = 'mysql';
